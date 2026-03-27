@@ -43,7 +43,7 @@ a:focus-visible {
   border-radius: 4px;
   border: 2px solid transparent;
 }
-@supports not selector(::-webkit-scrollbar) {
+@supports not (selector(::-webkit-scrollbar)) {
   * {
     scrollbar-width: thin;
     scrollbar-color: var(--text-decoration-color) transparent;
